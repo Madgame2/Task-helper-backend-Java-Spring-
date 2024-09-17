@@ -1,0 +1,28 @@
+
+    <div th:fragment="sign_in" class="sign_in">
+        <h1>Authorization</h1>
+        <form action="/home/sign_in" method="POST">
+            <label for="in_mail">Email address</label>
+            <input type="email" name="email" id="in_mail" placeholder="you@company.com" required>
+            <label for="in_password">Password</label>
+            <input type="password" name="password" id="in_password" placeholder="*********" required>
+            <a href="#">Forgot password?</a>
+            <input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}"/>
+            <button type="submit">Sign in</button>
+        </form>
+    </div>
+
+    <div th:fragment="sign_up" class="sign_up">
+        <h1>Create an account</h1>
+        <form action="" method="">
+            <label for="mail">Email address</label>
+            <input type="email" name="Email" id="mail" placeholder="you@company.com" required>
+            <label for="up_password">Password</label>
+            <input type="password" name="password" id="up_password" placeholder="*********" required>
+            <label for="up_again_password">Confirm password</label>
+            <input type="password" name="password" id="up_again_password" placeholder="*********" required>
+
+            <input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}"/>
+            <button type="submit">Sign up</button>
+        </form>
+    </div>

@@ -1,0 +1,926 @@
+header {
+  display: flex;
+  justify-content: center;
+  flex-grow: 0;
+}
+header .header_layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+header .header_layout .LOGO {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+header .header_layout .nav {
+  flex: 2;
+}
+header .header_layout .SIGN {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome_main {
+  display: flex;
+  flex-direction: column;
+}
+.welcome_main .part_1 {
+  display: flex;
+}
+.welcome_main .part_1 .contaner {
+  display: flex;
+  flex-direction: row;
+}
+.welcome_main .part_1 .contaner .line {
+  display: flex;
+  flex-direction: column;
+}
+.welcome_main .part_1 .contaner .main_info .contaner_welcom {
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+}
+.welcome_main .part_2 .contaner {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+  padding-right: 2.5%;
+}
+.welcome_main .part_2 .contaner .authorization .contaner {
+  display: flex;
+  flex-direction: row;
+}
+.welcome_main .part_2 .contaner .authorization .contaner .form {
+  flex-grow: 1;
+  flex: 6;
+}
+.welcome_main .part_2 .contaner .authorization .contaner .form form {
+  display: flex;
+  flex-direction: column;
+}
+.welcome_main .part_2 .contaner .authorization .contaner .form form .errors {
+  display: flex;
+  flex-direction: column;
+}
+.welcome_main .part_2 .contaner .authorization .contaner .form form .errors .error {
+  display: flex;
+  gap: 2%;
+  flex-direction: row;
+  align-items: center;
+}
+.welcome_main .part_2 .contaner .authorization .contaner .separate_line {
+  flex: 1;
+}
+.welcome_main .part_2 .contaner .authorization .contaner .logo_authorization {
+  flex: 3;
+  display: flex;
+  margin-left: 5%;
+  align-items: center;
+}
+.welcome_main .part_2 .contaner .logo {
+  display: flex;
+}
+
+.user_page header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  position: relative;
+}
+.user_page header .interactive .contaner {
+  display: flex;
+  gap: 20px;
+  flex-direction: row !important;
+}
+.user_page main .interactive .visible_area .contaner {
+  display: flex;
+  flex-direction: column;
+}
+.user_page main .interactive .visible_area .contaner .sign_in {
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+}
+.user_page main .interactive .visible_area .contaner .sign_in form {
+  display: flex;
+  flex-direction: column;
+}
+.user_page main .interactive .visible_area .contaner .sign_up {
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+}
+.user_page main .interactive .visible_area .contaner .sign_up form {
+  display: flex;
+  flex-direction: column;
+}
+
+.user_lib .layout header {
+  display: block;
+}
+.user_lib .layout header .contaner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.user_lib .layout header .contaner .LOGO {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.user_lib .layout header .contaner .user_intaractive {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 1%;
+  justify-content: end;
+}
+.user_lib .layout header .contaner .user_intaractive .notificaton_contaner button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user_lib .layout header .contaner .user_intaractive .user_button_contaaner button {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 5px;
+}
+.user_lib .layout main .contaner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.user_lib .layout main .contaner .menu_part {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.user_lib .layout main .contaner .menu_part .head {
+  display: flex;
+}
+.user_lib .layout main .contaner .menu_part .interactive {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.user_lib .layout main .contaner .main_part {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.user_lib .layout main .contaner .main_part .head {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding-left: 15%;
+}
+.user_lib .layout main .contaner .main_part .head h2 {
+  font-size: 50px;
+  font-weight: normal;
+}
+.user_lib .layout main .contaner .main_part .contaner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-grow: 0;
+  overflow: hidden;
+}
+.user_lib .layout main .contaner .main_part .contaner .visible .project .tile {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.user_lib .layout main .contaner .main_part .contaner .visible .project .tile .contaner_1 {
+  flex: 2;
+  display: flex;
+  justify-content: start;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.user_lib .layout main .contaner .main_part .contaner .visible .project .tile .contaner_2 {
+  flex: 3;
+}
+.user_lib .layout main .contaner .main_part .contaner .visible .project .tile .contaner_3 {
+  flex: 3;
+}
+.user_lib .layout main .contaner .main_part .contaner .visible .project .tile .contaner_4 {
+  flex: 2;
+}
+.user_lib .layout main .contaner .main_part .contaner .visible .project .tile .contaner_4 .buttons_contaner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.user_lib .layout main .contaner .main_part .contaner .visible .project .tile .contaner_4 .buttons_contaner .extra_buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+}
+.user_lib .layout main .contaner .main_part .contaner .visible .project .tile .contaner_4 .buttons_contaner .extra_buttons button {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.logo {
+  transition: all 0.2s linear;
+}
+
+.logo.hide {
+  transition: all 0.2s linear;
+  opacity: 0;
+  transform: translateY(25px);
+}
+
+.welcome_main .authorization .contaner {
+  transition: all 0.2s linear;
+}
+.welcome_main .authorization .contaner.hide {
+  opacity: 0;
+  transition: all 0.2s linear;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  text-decoration: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+body {
+  background-color: #2c2c2c;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.layout header {
+  height: 150px !important;
+  flex-shrink: 0;
+}
+.layout main {
+  flex-grow: 1;
+}
+.layout footer {
+  height: 100px;
+}
+
+.header {
+  background-color: #151515;
+  width: 96%;
+  margin-top: 15px;
+  height: 60%;
+  border-radius: 25px;
+  box-shadow: -10px 20px 50px rgba(52, 0, 119, 0.5);
+}
+.header .header_layout {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  top: -100%;
+  background-color: #151515;
+  border-radius: 25px;
+}
+.header .header_layout .LOGO, .header .header_layout .nav, .header .header_layout .SIGN {
+  height: 100%;
+}
+.header .header_layout .LOGO .name {
+  font-size: 35px;
+  font-weight: bold;
+}
+.header .header_layout .SIGN {
+  font-size: 20px;
+}
+.header .header_layout .SIGN .sign_in {
+  margin-right: 30px;
+}
+.header .header_layout .SIGN .sign_up {
+  border: 2px solid #fff;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  border-radius: 15px;
+}
+
+.header::before {
+  content: " ";
+  display: block;
+  width: 100%;
+  height: 100%;
+  box-shadow: 12px -9px 50px rgba(2, 0, 113, 0.5);
+  border-radius: 25px;
+  position: relative;
+}
+
+.welcome_main .part_1 {
+  position: relative;
+  flex-direction: row;
+}
+.welcome_main .part_1 .BG {
+  position: relative;
+  width: 100% !important;
+}
+.welcome_main .part_1 .contaner {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 2.5%;
+  box-sizing: border-box;
+}
+.welcome_main .part_1 .contaner .line {
+  width: 80px !important;
+  padding-top: 30px;
+}
+.welcome_main .part_1 .contaner .line .curcle_head {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.welcome_main .part_1 .contaner .line .curcle_head .curcle {
+  border: 4px solid rgba(128, 128, 128, 0.4);
+  padding: 4px;
+  border-radius: 50%;
+}
+.welcome_main .part_1 .contaner .line .line_1 {
+  height: 35%;
+  margin-top: 20%;
+}
+.welcome_main .part_1 .contaner .line .line_1 .line_blur {
+  background: linear-gradient(#2C2C2C, #9663D7, #3300FF);
+}
+.welcome_main .part_1 .contaner .line .line_1 .line_clear {
+  background: linear-gradient(#2C2C2C, #9663D7, #3300FF);
+  padding: 3px;
+  width: 0;
+  border-radius: 20px;
+}
+.welcome_main .part_1 .contaner .line .line_2 {
+  height: 50%;
+  margin-top: 20%;
+}
+.welcome_main .part_1 .contaner .line .line_2 .line_blur {
+  background: linear-gradient(#3300FF, #00D1ED, #00E1AB);
+  transition: transform 0.2s linear;
+  transform-origin: 0 0;
+}
+.welcome_main .part_1 .contaner .line .line_2 .line_clear {
+  background: linear-gradient(#3300FF, #00D1ED, #00E1AB);
+  padding: 3px;
+  border-radius: 20px;
+  transition: transform 0.2s linear;
+  transform-origin: 0 0;
+}
+.welcome_main .part_1 .contaner .line .logo {
+  background-color: #D9D9D9;
+  padding: 25%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  box-shadow: 0px 0px 30px rgba(51, 0, 255, 0.7);
+}
+.welcome_main .part_1 .contaner .main_info {
+  width: 100%;
+  height: 100%;
+}
+.welcome_main .part_1 .contaner .main_info .contaner_welcom {
+  height: 100%;
+  padding-top: 5%;
+  align-items: center;
+}
+.welcome_main .part_1 .contaner .main_info .contaner_welcom .logo {
+  background-color: #D9D9D9;
+  width: 225px;
+  height: 225px;
+  border-radius: 50%;
+}
+.welcome_main .part_1 .contaner .main_info .contaner_welcom .NAME {
+  font-size: 60px;
+  font-weight: bold;
+}
+.welcome_main .part_1 .contaner .main_info .contaner_welcom .description {
+  font-size: 25px;
+}
+.welcome_main .part_2 .contaner {
+  padding-left: 5.5%;
+}
+.welcome_main .part_2 .contaner .logo {
+  padding-left: 5%;
+  position: relative;
+  margin-top: 2%;
+  width: 74.891px;
+  text-align: center;
+  justify-content: center;
+}
+.welcome_main .part_2 .contaner .logo svg {
+  position: relative;
+}
+.welcome_main .part_2 .contaner .logo .shadow {
+  position: absolute;
+  width: 40px;
+  height: 50px;
+  top: 0;
+  border-radius: 50%;
+  background-color: #00E1AB;
+  filter: blur(25px);
+  text-align: center;
+}
+.welcome_main .part_2 .authorization .contaner {
+  padding: 0;
+  margin-right: 2.5%;
+  margin-top: 3%;
+  background-color: #181818;
+  border-radius: 35px;
+  border: 4px solid #30363D;
+}
+.welcome_main .part_2 .authorization .contaner .form {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 8%;
+}
+.welcome_main .part_2 .authorization .contaner .form h1 {
+  font-size: 55px;
+  font-weight: bold;
+  color: #00E1AB;
+}
+.welcome_main .part_2 .authorization .contaner .form p {
+  font-size: 32px;
+}
+.welcome_main .part_2 .authorization .contaner .form form {
+  margin-top: 5%;
+  margin-right: 40%;
+}
+.welcome_main .part_2 .authorization .contaner .form form input {
+  margin-bottom: 2%;
+  padding: 1%;
+  font-size: 18px;
+  color: #181818;
+  border-radius: 8px;
+  border: 2px solid #30363D;
+}
+.welcome_main .part_2 .authorization .contaner .form form label {
+  font-size: 15px;
+}
+.welcome_main .part_2 .authorization .contaner .form form button {
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  padding-right: 5.5%;
+  padding-left: 5.5%;
+  background-color: #4500D9;
+  font-size: 28px;
+  border-radius: 10px;
+  border: 2px solid #A1A1A1;
+}
+.welcome_main .part_2 .authorization .contaner .form form .errors {
+  padding-left: 2%;
+}
+.welcome_main .part_2 .authorization .contaner .form form .errors .error svg {
+  width: 30px;
+  height: 30px;
+}
+.welcome_main .part_2 .authorization .contaner .form form .errors .error svg path {
+  stroke: red;
+}
+.welcome_main .part_2 .authorization .contaner .form form .errors .error p {
+  color: red;
+  font-size: 25px;
+}
+.welcome_main .part_2 .authorization .contaner .separate_line .line {
+  margin-top: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80%;
+  width: 0;
+  padding: 2px;
+  border-radius: 5px;
+  background-color: #30363D;
+}
+
+.line_node {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  transition: height 0.2s linear;
+}
+.line_node .line_clear {
+  height: 100%;
+  position: relative;
+  top: 0;
+  transition: height 0.2s linear;
+}
+.line_node .line_blur {
+  position: relative;
+  height: 100%;
+  top: -100%;
+  filter: blur(15px);
+  transition: height 0.2s linear;
+}
+
+.hide .line_clear {
+  transform: scaleY(0);
+  transform-origin: 0 0;
+  transition: transform 0.2s linear;
+}
+.hide .line_blur {
+  transform: scaleY(0);
+  transform-origin: 0 0;
+  transition: height 0.2s linear;
+}
+
+.user_page {
+  background-color: #0A0A0A;
+}
+.user_page header {
+  padding-top: 1.5%;
+  height: auto !important;
+  z-index: 1;
+}
+.user_page header .logo {
+  font-size: 50px;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: 18%;
+}
+.user_page header .interactive {
+  padding-right: 10%;
+}
+.user_page header .interactive .contaner .active {
+  background-color: #005A8C;
+}
+.user_page header .interactive .contaner button {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #0A0A0A;
+  border: 2px solid #30363D;
+  border-radius: 12px;
+  font-size: 15px;
+}
+.user_page header .interactive .contaner button:hover:not(.active) {
+  background-color: #30363D;
+  transition: all 0.2s linear;
+}
+.user_page main {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+}
+.user_page main .BG {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.user_page main .BG .svg_1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.user_page main .BG .svg_2 {
+  position: absolute;
+  top: 70px;
+  left: 130px;
+}
+.user_page main .BG .svg_3 {
+  position: relative;
+  top: 64vh;
+  left: 80vw;
+}
+.user_page main .BG .svg_4 {
+  position: relative;
+  top: 8vh;
+  left: 34vw;
+}
+.user_page main .BG .svg_5 {
+  position: absolute;
+  top: 60vh;
+  left: 26vw;
+  animation: spin 80s linear infinite;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.user_page main .interactive {
+  position: inherit;
+  top: 20vh;
+  left: 34vw;
+  width: 500px;
+  height: 60%;
+  background-color: #232323;
+  border: 3px solid #30363D;
+  border-radius: 20px;
+}
+.user_page main .interactive .visible_area {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.user_page main .interactive .visible_area .contaner {
+  height: 100%;
+  position: relative;
+  transition: top 0.5s cubic-bezier(0.42, 0, 0.58, 1);
+  top: 0;
+}
+.user_page main .interactive .visible_area .contaner .sign_in {
+  height: 100%;
+  flex-shrink: 0;
+}
+.user_page main .interactive .visible_area .contaner .sign_in h1 {
+  text-align: center;
+  margin-top: 10%;
+  font-size: 45px;
+  color: #00E1AB;
+}
+.user_page main .interactive .visible_area .contaner .sign_in form {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.user_page main .interactive .visible_area .contaner .sign_in form label {
+  margin-top: 5%;
+  margin-left: 4%;
+  font-size: 18px;
+}
+.user_page main .interactive .visible_area .contaner .sign_in form input {
+  padding: 2%;
+  font-size: 20px;
+  border-radius: 10px;
+  color: black;
+  border: 3px solid #30363D;
+}
+.user_page main .interactive .visible_area .contaner .sign_in form button {
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  padding-right: 5.5%;
+  padding-left: 5.5%;
+  background-color: #4500D9;
+  font-size: 28px;
+  border-radius: 10px;
+  border: 2px solid #A1A1A1;
+  transition: background-color 0.1s linear;
+  margin-top: 20%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.user_page main .interactive .visible_area .contaner .sign_in form button:hover {
+  background-color: #6C2DF3;
+  transition: background-color 0.1s linear;
+}
+.user_page main .interactive .visible_area .contaner .sign_in form a {
+  margin-top: 5%;
+  margin-left: 5%;
+  font-size: 20px;
+  color: #00D1FF;
+}
+.user_page main .interactive .visible_area .contaner .sign_up {
+  height: 100%;
+  flex-shrink: 0;
+}
+.user_page main .interactive .visible_area .contaner .sign_up h1 {
+  text-align: center;
+  margin-top: 10%;
+  font-size: 45px;
+  color: #7C04A6;
+}
+.user_page main .interactive .visible_area .contaner .sign_up form {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.user_page main .interactive .visible_area .contaner .sign_up form label {
+  margin-top: 5%;
+  margin-left: 4%;
+  font-size: 18px;
+}
+.user_page main .interactive .visible_area .contaner .sign_up form input {
+  padding: 2%;
+  font-size: 20px;
+  border-radius: 10px;
+  color: black;
+  border: 3px solid #30363D;
+}
+.user_page main .interactive .visible_area .contaner .sign_up form button {
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  padding-right: 5.5%;
+  padding-left: 5.5%;
+  background-color: #4500D9;
+  font-size: 28px;
+  border-radius: 10px;
+  border: 2px solid #A1A1A1;
+  transition: background-color 0.1s linear;
+  margin-top: 20%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.user_page main .interactive .visible_area .contaner .sign_up form button:hover {
+  background-color: #6C2DF3;
+  transition: background-color 0.1s linear;
+}
+
+button[type=submit]:disabled {
+  background-color: #353535 !important;
+}
+
+.user_lib header {
+  height: auto !important;
+  background-color: #0F0F0F;
+}
+.user_lib header .contaner .LOGO {
+  width: -webkit-fill-available;
+}
+.user_lib header .contaner .LOGO .logo {
+  display: block;
+  width: 60px !important;
+  height: 60px !important;
+  box-sizing: content-box;
+  background-color: white;
+  border-radius: 50%;
+}
+.user_lib header .contaner .LOGO .name {
+  padding-left: 1%;
+  font-size: 40px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+.user_lib header .contaner .user_intaractive {
+  width: -webkit-fill-available;
+}
+.user_lib header .contaner .user_intaractive .notificaton_contaner button {
+  width: 70px;
+  height: 35px;
+  background-color: #0F0F0F;
+  border: 2px solid #30363D;
+  border-radius: 8px;
+}
+.user_lib header .contaner .user_intaractive .user_button_contaaner button {
+  height: 45px;
+  width: 170px;
+  background-color: #0F0F0F;
+  border: 2px solid #30363D;
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.user_lib header .contaner .user_intaractive .user_button_contaaner button .icon {
+  width: 35px;
+  height: 35px;
+  background-color: wheat;
+  border-radius: 50%;
+}
+.user_lib header .contaner .user_intaractive .user_button_contaaner button .nikname {
+  font-size: 15px;
+}
+.user_lib main .contaner {
+  height: 100%;
+}
+.user_lib main .contaner .menu_part {
+  background-color: #171717;
+  border-right: 2px solid #474747;
+  min-width: 280px;
+}
+.user_lib main .contaner .menu_part .head {
+  height: 120px;
+  align-items: center;
+}
+.user_lib main .contaner .menu_part .head h1 {
+  margin-left: 60px;
+  font-size: 50px;
+  font-weight: normal;
+}
+.user_lib main .contaner .menu_part .interactive button {
+  background-color: #171717;
+  border: 2px solid #474747;
+  border-right: none;
+  border-left: none;
+  height: 60px;
+  text-align: start;
+  padding-left: 50px;
+  font-size: 25px;
+}
+.user_lib main .contaner .menu_part .interactive button:hover {
+  background-color: #232323;
+}
+.user_lib main .contaner .menu_part .interactive button:active {
+  background-color: #323232;
+  transition: background-color 0.1s linear;
+}
+.user_lib main .contaner .menu_part .interactive > *:not(:first-child) {
+  border-top: none;
+}
+.user_lib main .contaner .main_part .contaner {
+  height: auto;
+}
+.user_lib main .contaner .main_part .contaner .visible {
+  display: block;
+  max-height: 78vh;
+  overflow-y: auto;
+}
+.user_lib main .contaner .main_part .contaner > div {
+  display: none;
+  width: 100%;
+}
+.user_lib main .contaner .main_part .contaner .project {
+  height: 240px;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.user_lib main .contaner .main_part .contaner .project .tile {
+  height: 100%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  box-sizing: border-box;
+  border-radius: 18px;
+  border: 2px solid #474747;
+  background-color: #171717;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.user_lib main .contaner .main_part .contaner .project .tile .contaner_1 img {
+  width: 180px;
+  height: 180px;
+}
+.user_lib main .contaner .main_part .contaner .project .tile .contaner_2 h1 {
+  font-size: 35px;
+  margin-left: 5%;
+}
+.user_lib main .contaner .main_part .contaner .project .tile .contaner_2 p {
+  font-size: 20px;
+  margin-top: 2.5%;
+}
+.user_lib main .contaner .main_part .contaner .project .tile .contaner_3 table {
+  height: 100%;
+}
+.user_lib main .contaner .main_part .contaner .project .tile .contaner_3 table tbody tr td:first-child {
+  text-align: end;
+  padding-right: 5px;
+  color: #606060;
+}
+.user_lib main .contaner .main_part .contaner .project .tile .contaner_3 table tbody tr td {
+  font-size: 20px;
+}
+.user_lib main .contaner .main_part .contaner .project .tile .contaner_4 .buttons_contaner {
+  width: 100%;
+  height: 100%;
+  padding-left: 20%;
+  padding-right: 32%;
+  padding-top: 12%;
+  padding-bottom: 12%;
+  box-sizing: border-box;
+}
+.user_lib main .contaner .main_part .contaner .project .tile .contaner_4 .buttons_contaner button {
+  border: 2px solid #474747;
+  border-radius: 8px;
+  background-color: #171717;
+  height: 40px;
+  width: 110px;
+  font-size: 20px;
+}
+.user_lib main .contaner .main_part .contaner .project .tile .contaner_4 .buttons_contaner .extra_buttons button {
+  border: none;
+  background-color: none;
+  width: auto;
+  height: auto;
+}
